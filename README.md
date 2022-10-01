@@ -9,3 +9,6 @@ Le filtre de Canny permet de déterminer la détection des contours. L’algorit
 <b>- Bonne détection :</b>Cette critère revient à chercher un opérateur de détection et tel que le rapport signal sur le bruit soit maximum. C’est-à-dire faible taux d’erreur dans la signalisation des contours.<br>
 <b>- Bonne localisation :</b>Cette critère corresponds la minimisation de variance de la position des passages par zéro et revient à maximiser la localisation.<br>
 <b> - Unicité de la réponse :</b> Cette critère correspond à la limitation du nombre de maximas locaux. Il essaye de donner une seule réponse par contour et pas de faux positifs.
+
+<h2>L'utilisation de code</h2>
+Pour exécuter le code il suffit juste de télécharger le fichier <i>applicationfinale.m</i> puis l'exécuter dans Matlab. 
