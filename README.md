@@ -1,5 +1,5 @@
 # Sobel-Canny-algorithms-development
-This project aims to extends the algorithms of sobel al and Canny for edge detection in a grayscale image. 
+This project aims to extends the algorithms of sobel and Canny for edge detection in a grayscale image. 
 <h2>Le filtre de Sobel</h2>
 Le filtre (l’opérateur) de Sobel est un outil utilisé en traitement d’image pour la détection de contours, réalisé par <b>Sobel-Feldman</b> en 1968.L’opérateur est basé sur le calcul de gradient de l’intensité de chaque pixel d’image, ceci indique la direction de la plus forte variation du clair au sombre (variation de contraste), mais aussi le taux de changement dans cette direction.<br>
 L’opérateur utilise des matrices de convolution. La matrice est (généralement de taille 3x3 mais dans notre cas en va travailler avec 5x5) subit une convolution avec l’image pour calculer des approximations des deux dérivées.
