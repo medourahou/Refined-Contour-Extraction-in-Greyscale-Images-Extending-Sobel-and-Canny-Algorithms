@@ -1,14 +1,16 @@
-# Sobel-Canny-algorithms-development
-This project aims to extends the algorithms of sobel and Canny for edge detection in a grayscale image. 
+# Refined Contour Extraction in Greyscale Images: Extending Sobel's and Canny's Algorithms
+This project aims to extend Sobel and Canny's algorithms for edge detection in a grayscale image. 
 <h2>Le filtre de Sobel</h2>
-Le filtre (l’opérateur) de Sobel est un outil utilisé en traitement d’image pour la détection de contours, réalisé par <b>Sobel-Feldman</b> en 1968.L’opérateur est basé sur le calcul de gradient de l’intensité de chaque pixel d’image, ceci indique la direction de la plus forte variation du clair au sombre (variation de contraste), mais aussi le taux de changement dans cette direction.<br>
-L’opérateur utilise des matrices de convolution. La matrice est (généralement de taille 3x3 mais dans notre cas en va travailler avec 5x5) subit une convolution avec l’image pour calculer des approximations des deux dérivées.
+The Sobel filter (operator) is a tool used in image processing for edge detection, developed by <b>Sobel-Feldman</b> in 1968. The operator is based on gradient calculation of the intensity of each image pixel, this indicates the direction of greatest change from light to dark (contrast change), but also the rate of change in this direction.<br>
+The operator uses convolution matrices. The matrix is (usually of size 3x3 but in our case we will work with 5x5) convolved with the image to calculate approximations of the two derivatives.
 
 <h2>Le filtre de Canny</h2>
-Le filtre de Canny permet de déterminer la détection des contours. L’algorithme a été conçu par <b>John Canny</b> en 1986 pour être optimal sur trois contraints suivant :<br>
-<b>- Bonne détection :</b>Cette critère revient à chercher un opérateur de détection et tel que le rapport signal sur le bruit soit maximum. C’est-à-dire faible taux d’erreur dans la signalisation des contours.<br>
-<b>- Bonne localisation :</b>Cette critère corresponds la minimisation de variance de la position des passages par zéro et revient à maximiser la localisation.<br>
-<b> - Unicité de la réponse :</b> Cette critère correspond à la limitation du nombre de maximas locaux. Il essaye de donner une seule réponse par contour et pas de faux positifs.
+The Canny filter is used to determine edge detection. The algorithm was designed by John Canny in 1986 to be optimal over the following three constraints:<br>
+<b>- Effective Detection:</b> This criterion involves seeking a detection operator that maximizes the signal-to-noise ratio, resulting in a low error rate in contour detection.
+
+<b>- Accurate Localization:</b> This criterion aims to minimize the variance in the position of zero-crossings, leading to enhanced localization of contours.
+
+<b>- Uniqueness of Response:</b> This criterion ensures a limited number of local maxima, striving to provide a single response per contour and avoid false positives.
 
 <h2>L'utilisation de code</h2>
 Pour exécuter le code il suffit juste de télécharger le fichier <i>applicationfinale.m</i> puis l'exécuter dans Matlab. 
