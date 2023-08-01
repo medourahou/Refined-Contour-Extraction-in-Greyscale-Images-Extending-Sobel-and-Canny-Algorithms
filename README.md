@@ -12,5 +12,5 @@ The Canny filter is used to determine edge detection. The algorithm was designed
 
 <b>- Uniqueness of Response:</b> This criterion ensures a limited number of local maxima, striving to provide a single response per contour and avoid false positives.
 
-<h2>L'utilisation de code</h2>
-Pour exécuter le code il suffit juste de télécharger le fichier <i>applicationfinale.m</i> puis l'exécuter dans Matlab. 
+<h2>Using the Code</h2>
+To run the code, simply download the file <i>applicationfinale.m</i> and execute it in Matlab.
